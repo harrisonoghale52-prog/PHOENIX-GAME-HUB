@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Tesla investment landing page with a premium investor dashboard and Tesla corporate styling."
+    />
+    <title>Tesla Investor Relations</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand" aria-label="Tesla logo">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 56 56" role="img">
+              <path d="M28 2c-8 0-15 3-20 8l7 5c3-3 7-5 13-5s10 2 13 5l7-5c-5-5-12-8-20-8Zm-17 18c2 6 6 10 17 10s15-4 17-10l2 9c-3 8-10 14-19 15-9-1-16-7-19-15l2-9Zm13 13h8l4 13H20l4-13Zm-3-5h14l-3-8H21l-3 8Z" fill="currentColor"/>
+            </svg>
+          </span>
+          <span class="brand-text">TESLA</span>
+        </div>
+
+        <button class="mobile-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="nav" aria-label="Main navigation">
+          <a href="#overview">Overview</a>
+          <a href="#dashboard">Dashboard</a>
+          <a href="#financials">Financials</a>
+          <a href="#mission">Mission</a>
+          <a href="#vision">Vision</a>
+        </nav>
+
+        <a class="cta nav-button" href="#customer-service">Invest</a>
+      </header>
+
+      <main>
+        <section class="hero" id="overview">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Tesla Investor Relations</p>
+            <h1>Building the future of sustainable transport and energy.</h1>
+            <p class="subtext">
+              Tesla is creating a more sustainable future through vertical integration, energy infrastructure, and software-defined automation.
+            </p>
+
+            <div class="hero-actions">
+              <a class="cta" href="#dashboard">View dashboard</a>
+              <a class="secondary" href="#vision">Mission brief</a>
+            </div>
+
+            <div class="ticker" aria-label="Ticker">
+              <div class="ticker-track">NASDAQ: TSLA • EV LEADERSHIP • ENERGY STORAGE • AI • ROBOTICS •</div>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="visual-card">
+              <div class="mini-chart">
+                <span class="dot dot-one"></span>
+                <span class="dot dot-two"></span>
+                <span class="dot dot-three"></span>
+              </div>
+
+              <div class="car-wrap" aria-hidden="true">
+                <div class="car-body">
+                  <span class="wheel wheel-left"></span>
+                  <span class="wheel wheel-right"></span>
+                </div>
+              </div>
+
+              <div class="visual-metric">
+                <small>Annual growth</small>
+                <strong>+24.6%</strong>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="market-dashboard reveal" id="dashboard">
+          <div class="dashboard-header">
+            <div>
+              <p class="eyebrow">Stock dashboard</p>
+              <h2><span>TSLA</span> <strong data-price>$250.84</strong></h2>
+            </div>
+            <div class="price-change positive">+4.86% today</div>
+          </div>
+
+          <div class="dashboard-grid">
+            <article class="panel chart-panel">
+              <div class="panel-header">
+                <span>Price performance</span>
+                <span class="chip success">Bullish trend</span>
+              </div>
+
+              <svg class="chart-svg" viewBox="0 0 620 240" aria-label="Tesla stock performance chart">
+                <defs>
+                  <linearGradient id="lineGlow" x1="0" x2="1">
+                    <stop offset="0%" stop-color="#ff5f6d" />
+                    <stop offset="100%" stop-color="#ffc371" />
+                  </linearGradient>
+                  <linearGradient id="fillGlow" x1="0" x2="0" y1="0" y2="1">
+                    <stop offset="0%" stop-color="rgba(255,95,109,0.45)" />
+                    <stop offset="100%" stop-color="rgba(255,95,109,0.02)" />
+                  </linearGradient>
+                </defs>
+                <g class="grid-lines">
+                  <line x1="40" y1="20" x2="600" y2="20" />
+                  <line x1="40" y1="80" x2="600" y2="80" />
+                  <line x1="40" y1="140" x2="600" y2="140" />
+                  <line x1="40" y1="200" x2="600" y2="200" />
+                </g>
+                <path class="area" d="M40 170 C120 160, 170 110, 220 120 S320 70, 380 100 S510 75, 600 45 L600 220 L40 220 Z" fill="url(#fillGlow)"/>
+                <path class="line" d="M40 170 C120 160, 170 110, 220 120 S320 70, 380 100 S510 75, 600 45" fill="none" stroke="url(#lineGlow)" stroke-width="4" stroke-linecap="round"/>
+                <g class="data-points">
+                  <circle cx="220" cy="120" r="6" />
+                  <circle cx="380" cy="100" r="6" />
+                  <circle cx="600" cy="45" r="7" />
+                </g>
+              </svg>
+
+              <div class="chart-footer">
+                <div>
+                  <small>Open</small>
+                  <strong>$244.10</strong>
+                </div>
+                <div>
+                  <small>High</small>
+                  <strong>$254.90</strong>
+                </div>
+                <div>
+                  <small>Low</small>
+                  <strong>$240.20</strong>
+                </div>
+                <div>
+                  <small>Volume</small>
+                  <strong>58.4M</strong>
+                </div>
+              </div>
+            </article>
+
+            <aside class="panel side-panel">
+              <div class="panel-header">
+                <span>Watchlist</span>
+                <span class="chip muted">1D</span>
+              </div>
+
+              <div class="watchlist-item">
+                <div>
+                  <strong>TSLA</strong>
+                  <small>Electric vehicles</small>
+                </div>
+                <div class="watch-price">
+                  <span class="up">+2.7%</span>
+                  <strong>$250.84</strong>
+                </div>
+              </div>
+
+              <div class="watchlist-item">
+                <div>
+                  <strong>NVDA</strong>
+                  <small>Semiconductors</small>
+                </div>
+                <div class="watch-price">
+                  <span class="up">+1.3%</span>
+                  <strong>$132.90</strong>
+                </div>
+              </div>
+
+              <div class="watchlist-item">
+                <div>
+                  <strong>AMD</strong>
+                  <small>AI compute</small>
+                </div>
+                <div class="watch-price">
+                  <span class="up">+0.9%</span>
+                  <strong>$174.22</strong>
+                </div>
+              </div>
+            </aside>
+
+            <article class="panel metric-panel">
+              <small>Market cap</small>
+              <strong data-target="900" data-suffix="B">0B</strong>
+              <span>Global EV leader</span>
+            </article>
+
+            <article class="panel metric-panel">
+              <small>Price target</small>
+              <strong data-target="320" data-suffix="">0</strong>
+              <span>Analyst consensus</span>
+            </article>
+
+            <article class="panel metric-panel">
+              <small>Gross margin</small>
+              <strong data-target="22.4" data-suffix="%">0%</strong>
+              <span>Operating efficiency</span>
+            </article>
+
+            <article class="panel order-panel">
+              <div class="panel-header">
+                <span>Trade setup</span>
+                <span class="chip muted">Risk: Moderate</span>
+              </div>
+
+              <div class="order-actions">
+                <button class="buy-btn">Buy</button>
+                <button class="sell-btn">Sell</button>
+              </div>
+
+              <div class="order-metrics">
+                <div><span>Entry</span><strong>$248.00</strong></div>
+                <div><span>Stop</span><strong>$236.50</strong></div>
+                <div><span>Target</span><strong>$275.00</strong></div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="stats reveal" id="financials">
+          <article class="stat-card">
+            <p>Revenue growth</p>
+            <h3 data-target="18" data-suffix="%">0%</h3>
+            <span>Year over year</span>
+          </article>
+
+          <article class="stat-card">
+            <p>Vehicle deliveries</p>
+            <h3 data-target="1.8" data-suffix="M">0M</h3>
+            <span>Annualized run rate</span>
+          </article>
+
+          <article class="stat-card">
+            <p>Energy deployments</p>
+            <h3 data-target="15.7" data-suffix="GWh">0GWh</h3>
+            <span>Battery storage growth</span>
+          </article>
+
+          <article class="stat-card">
+            <p>AI pipeline</p>
+            <h3 data-target="4.9" data-suffix="x">0x</h3>
+            <span>Growth multiplier</span>
+          </article>
+        </section>
+
+        <section class="split-section reveal" id="mission">
+          <div class="section-header">
+            <p class="eyebrow">Mission</p>
+            <h2>Accelerating the world’s transition to sustainable energy.</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature">
+              <div class="feature-icon">AI</div>
+              <h3>Autonomous future</h3>
+              <p>Advanced driver assistance and AI software create long-duration product leverage.</p>
+            </article>
+
+            <article class="feature">
+              <div class="feature-icon">EN</div>
+              <h3>Grid-scale energy</h3>
+              <p>Utility-scale storage and solar infrastructure diversify revenue beyond vehicle sales.</p>
+            </article>
+
+            <article class="feature">
+              <div class="feature-icon">MN</div>
+              <h3>Manufacturing leverage</h3>
+              <p>Vertical integration improves cost efficiency, quality control, and speed to market.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="market-panel reveal" id="vision">
+          <div class="panel-copy">
+            <p class="eyebrow">Market watch</p>
+            <h2>Investor thesis: disruption is still early.</h2>
+            <p>
+              Tesla remains a platform business with expanding reach across mobility, storage, electrification, software, and robotics.
+            </p>
+          </div>
+
+          <div class="chart-box" aria-label="Investment trend bars">
+            <div class="chart-row"><span>EV demand</span><i style="width: 82%"></i></div>
+            <div class="chart-row"><span>Energy</span><i style="width: 76%"></i></div>
+            <div class="chart-row"><span>AI/robotics</span><i style="width: 88%"></i></div>
+            <div class="chart-row"><span>Margin quality</span><i style="width: 69%"></i></div>
+          </div>
+        </section>
+
+        <section class="customer-service reveal" id="customer-service">
+          <div class="customer-copy">
+            <p class="eyebrow">Customer service</p>
+            <h2>Need help with your investment account?</h2>
+            <p>
+              Our customer support team can walk you through account setup, portfolio questions, and investment updates.
+            </p>
+          </div>
+
+          <div class="support-box">
+            <h3>Investor Support</h3>
+            <ul>
+              <li>Portfolio onboarding</li>
+              <li>Account assistance</li>
+              <li>Trade support</li>
+            </ul>
+            <a class="cta" href="mailto:support@tesla-investors.com">Contact support</a>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
